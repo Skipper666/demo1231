@@ -3,18 +3,40 @@
 <head>
     <meta charset="UTF-8"/>
     <title>Title</title>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="/css/css.css"/>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <script src="/js/getReq.js"></script>
 </head>
 <body>
-<h1>Hello Denis Antonenko fefewdw    gtdggtdgte</h1>
+<div class="container">
+    <h1 class="mt-5">Requests generator</h1>
+    <p class="lead">After click
+        <bold>Start</bold>
+        button app start send 2 request on https://httpbin.org/
+    </p>
+    <div>
+        <div class="row">
+            <button type="submit" id="bth-start" class="btn col-md-3 btn-primary btn-lg">Start</button>
+            <button type="submit" id="bth-start2" class="btn col-md-3 btn-primary btn-lg">DB info</button>
+                <button type="submit" id="bth-start3" class="btn col-md-3 btn-primary btn-lg">Schedule</button>
+            <button type="submit" id="bth-start4" class="btn col-md-3 btn-primary btn-lg">Configuration</button>
+        </div>
+    </div>
+</div>
 
-<form>
-    <button id="getAllCustomerId" type="button" class="btn btn-primary">Get All Customers</button>
-
-    <a href="/test?startService=true">click please</a><br/>
-    <a href="/test">click please</a>
-</form>
+<div class="loading">
+    <div class="loading-bar"></div>
+    <div class="loading-bar"></div>
+    <div class="loading-bar"></div>
+    <div class="loading-bar"></div>
+    working...
+</div>
+<footer class="footer">
+    <div class="container">
+        <span class="text-muted">d.antonenko@a1qa.com</span>
+    </div>
+</footer>
 </body>
 </html>

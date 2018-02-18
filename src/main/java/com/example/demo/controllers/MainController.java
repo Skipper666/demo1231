@@ -26,13 +26,14 @@ public class MainController {
 //        HttpEntity<String> requestEntity = new HttpEntity<String>("", httpHeaders);
 //        ResponseEntity<String> responseEntity = restTemplate.exchange("https://httpbin.org/status/200", HttpMethod.GET, requestEntity, String.class);
 //        System.out.println(responseEntity.getStatusCode());
-        System.out.println("ПЯЯЯЗДА");
+        System.out.println("чек");
         return "index";
     }
 
 
     @RequestMapping("/test2")
     public String test2(){
+        System.out.println("MDKWDMAWKDAWDW");
         return "index2";
     }
 
